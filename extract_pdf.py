@@ -1,6 +1,5 @@
 import PyPDF2
 
-
 def extract_pdf_path(pdf_path):
   with open(pdf_path, 'rb') as file:
     pdf_reader = PyPDF2.PdfReader(file)
